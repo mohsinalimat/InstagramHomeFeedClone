@@ -8,20 +8,80 @@
 
 /* Begin PBXBuildFile section */
 		96125CE92036F98A0017F402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125CE82036F98A0017F402 /* AppDelegate.swift */; };
-		96125CEB2036F98A0017F402 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125CEA2036F98A0017F402 /* ViewController.swift */; };
 		96125CEE2036F98A0017F402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96125CEC2036F98A0017F402 /* Main.storyboard */; };
 		96125CF02036F98A0017F402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96125CEF2036F98A0017F402 /* Assets.xcassets */; };
 		96125CF32036F98A0017F402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96125CF12036F98A0017F402 /* LaunchScreen.storyboard */; };
+		96125CFB2036FDF50017F402 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125CFA2036FDF50017F402 /* AppTabBarController.swift */; };
+		96125CFD2036FE130017F402 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125CFC2036FE130017F402 /* AppNavigationController.swift */; };
+		96125D02203704230017F402 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D01203704230017F402 /* SystemConfiguration.framework */; };
+		96125D04203704500017F402 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D032037044F0017F402 /* StoreKit.framework */; };
+		96125D06203704570017F402 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D05203704570017F402 /* Security.framework */; };
+		96125D08203704610017F402 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D07203704610017F402 /* QuartzCore.framework */; };
+		96125D0A203704660017F402 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D09203704650017F402 /* CoreLocation.framework */; };
+		96125D0C2037046D0017F402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D0B2037046D0017F402 /* CoreGraphics.framework */; };
+		96125D0E203704750017F402 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D0D203704750017F402 /* CFNetwork.framework */; };
+		96125D102037047B0017F402 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D0F2037047B0017F402 /* AudioToolbox.framework */; };
+		96125D12203704890017F402 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D11203704890017F402 /* libz.tbd */; };
+		96125D14203704950017F402 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D13203704950017F402 /* libsqlite3.tbd */; };
+		96125D17203704BC0017F402 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D15203704BC0017F402 /* Parse.framework */; };
+		96125D18203704BC0017F402 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96125D16203704BC0017F402 /* Bolts.framework */; };
+		96125D1A20373B460017F402 /* FeedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125D1920373B460017F402 /* FeedHeaderView.swift */; };
+		96125D1C20373ED10017F402 /* SuggestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125D1B20373ED10017F402 /* SuggestionCell.swift */; };
+		96125D20203740FC0017F402 /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125D1F203740FC0017F402 /* FeedController.swift */; };
+		96125D222037414E0017F402 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125D212037414E0017F402 /* FeedCell.swift */; };
+		96125D24203746A90017F402 /* SuggestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96125D23203746A90017F402 /* SuggestionModel.swift */; };
+		96125D282037568C0017F402 /* Dhawan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D272037568C0017F402 /* Dhawan.jpg */; };
+		96125D2A203756A10017F402 /* Jadeja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D29203756A00017F402 /* Jadeja.jpg */; };
+		96125D2C203756B30017F402 /* Dhoni.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D2B203756B30017F402 /* Dhoni.jpeg */; };
+		96125D2E203756CB0017F402 /* Gambhir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D2D203756CB0017F402 /* Gambhir.jpg */; };
+		96125D31203756EF0017F402 /* Dravid.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D30203756EF0017F402 /* Dravid.jpeg */; };
+		96125D33203757010017F402 /* Rohit.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D32203757010017F402 /* Rohit.jpeg */; };
+		96125D352037571E0017F402 /* Yuvraj.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D342037571E0017F402 /* Yuvraj.jpeg */; };
+		96125D37203757300017F402 /* Pandya.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D36203757300017F402 /* Pandya.jpeg */; };
+		96125D39203757410017F402 /* Bumrah.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D38203757410017F402 /* Bumrah.jpeg */; };
+		96125D3B203757500017F402 /* Sachin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 96125D3A203757500017F402 /* Sachin.jpeg */; };
+		96125D3F203762FA0017F402 /* KILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96125D3E203762FA0017F402 /* KILabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96125CE52036F98A0017F402 /* InstagramHomefeedSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramHomefeedSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96125CE82036F98A0017F402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96125CEA2036F98A0017F402 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96125CED2036F98A0017F402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96125CEF2036F98A0017F402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96125CF22036F98A0017F402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96125CF42036F98A0017F402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96125CFA2036FDF50017F402 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		96125CFC2036FE130017F402 /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		96125D01203704230017F402 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		96125D032037044F0017F402 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		96125D05203704570017F402 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		96125D07203704610017F402 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		96125D09203704650017F402 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		96125D0B2037046D0017F402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96125D0D203704750017F402 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		96125D0F2037047B0017F402 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		96125D11203704890017F402 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		96125D13203704950017F402 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		96125D15203704BC0017F402 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		96125D16203704BC0017F402 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		96125D1920373B460017F402 /* FeedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedHeaderView.swift; sourceTree = "<group>"; };
+		96125D1B20373ED10017F402 /* SuggestionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionCell.swift; sourceTree = "<group>"; };
+		96125D1F203740FC0017F402 /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		96125D212037414E0017F402 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		96125D23203746A90017F402 /* SuggestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionModel.swift; sourceTree = "<group>"; };
+		96125D272037568C0017F402 /* Dhawan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dhawan.jpg; sourceTree = "<group>"; };
+		96125D29203756A00017F402 /* Jadeja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jadeja.jpg; sourceTree = "<group>"; };
+		96125D2B203756B30017F402 /* Dhoni.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dhoni.jpeg; sourceTree = "<group>"; };
+		96125D2D203756CB0017F402 /* Gambhir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gambhir.jpg; sourceTree = "<group>"; };
+		96125D30203756EF0017F402 /* Dravid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Dravid.jpeg; sourceTree = "<group>"; };
+		96125D32203757010017F402 /* Rohit.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rohit.jpeg; sourceTree = "<group>"; };
+		96125D342037571E0017F402 /* Yuvraj.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yuvraj.jpeg; sourceTree = "<group>"; };
+		96125D36203757300017F402 /* Pandya.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pandya.jpeg; sourceTree = "<group>"; };
+		96125D38203757410017F402 /* Bumrah.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bumrah.jpeg; sourceTree = "<group>"; };
+		96125D3A203757500017F402 /* Sachin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sachin.jpeg; sourceTree = "<group>"; };
+		96125D3C203762F80017F402 /* InstagramHomefeedSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstagramHomefeedSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		96125D3D203762F90017F402 /* KILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KILabel.h; sourceTree = "<group>"; };
+		96125D3E203762FA0017F402 /* KILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KILabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +89,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96125D14203704950017F402 /* libsqlite3.tbd in Frameworks */,
+				96125D12203704890017F402 /* libz.tbd in Frameworks */,
+				96125D102037047B0017F402 /* AudioToolbox.framework in Frameworks */,
+				96125D18203704BC0017F402 /* Bolts.framework in Frameworks */,
+				96125D0E203704750017F402 /* CFNetwork.framework in Frameworks */,
+				96125D0C2037046D0017F402 /* CoreGraphics.framework in Frameworks */,
+				96125D0A203704660017F402 /* CoreLocation.framework in Frameworks */,
+				96125D17203704BC0017F402 /* Parse.framework in Frameworks */,
+				96125D08203704610017F402 /* QuartzCore.framework in Frameworks */,
+				96125D06203704570017F402 /* Security.framework in Frameworks */,
+				96125D04203704500017F402 /* StoreKit.framework in Frameworks */,
+				96125D02203704230017F402 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +112,7 @@
 			children = (
 				96125CE72036F98A0017F402 /* InstagramHomefeedSwift */,
 				96125CE62036F98A0017F402 /* Products */,
+				96125D00203704230017F402 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +127,60 @@
 		96125CE72036F98A0017F402 /* InstagramHomefeedSwift */ = {
 			isa = PBXGroup;
 			children = (
+				96125D3D203762F90017F402 /* KILabel.h */,
+				96125D3E203762FA0017F402 /* KILabel.m */,
 				96125CE82036F98A0017F402 /* AppDelegate.swift */,
-				96125CEA2036F98A0017F402 /* ViewController.swift */,
+				96125CFA2036FDF50017F402 /* AppTabBarController.swift */,
+				96125CFC2036FE130017F402 /* AppNavigationController.swift */,
+				96125D1F203740FC0017F402 /* FeedController.swift */,
+				96125D23203746A90017F402 /* SuggestionModel.swift */,
+				96125D1B20373ED10017F402 /* SuggestionCell.swift */,
+				96125D1920373B460017F402 /* FeedHeaderView.swift */,
+				96125D212037414E0017F402 /* FeedCell.swift */,
+				96125D2F203756CE0017F402 /* UserImages */,
 				96125CEC2036F98A0017F402 /* Main.storyboard */,
 				96125CEF2036F98A0017F402 /* Assets.xcassets */,
 				96125CF12036F98A0017F402 /* LaunchScreen.storyboard */,
 				96125CF42036F98A0017F402 /* Info.plist */,
+				96125D3C203762F80017F402 /* InstagramHomefeedSwift-Bridging-Header.h */,
 			);
 			path = InstagramHomefeedSwift;
+			sourceTree = "<group>";
+		};
+		96125D00203704230017F402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96125D16203704BC0017F402 /* Bolts.framework */,
+				96125D15203704BC0017F402 /* Parse.framework */,
+				96125D13203704950017F402 /* libsqlite3.tbd */,
+				96125D11203704890017F402 /* libz.tbd */,
+				96125D0F2037047B0017F402 /* AudioToolbox.framework */,
+				96125D0D203704750017F402 /* CFNetwork.framework */,
+				96125D0B2037046D0017F402 /* CoreGraphics.framework */,
+				96125D09203704650017F402 /* CoreLocation.framework */,
+				96125D07203704610017F402 /* QuartzCore.framework */,
+				96125D05203704570017F402 /* Security.framework */,
+				96125D032037044F0017F402 /* StoreKit.framework */,
+				96125D01203704230017F402 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96125D2F203756CE0017F402 /* UserImages */ = {
+			isa = PBXGroup;
+			children = (
+				96125D3A203757500017F402 /* Sachin.jpeg */,
+				96125D38203757410017F402 /* Bumrah.jpeg */,
+				96125D36203757300017F402 /* Pandya.jpeg */,
+				96125D342037571E0017F402 /* Yuvraj.jpeg */,
+				96125D32203757010017F402 /* Rohit.jpeg */,
+				96125D30203756EF0017F402 /* Dravid.jpeg */,
+				96125D2D203756CB0017F402 /* Gambhir.jpg */,
+				96125D2B203756B30017F402 /* Dhoni.jpeg */,
+				96125D29203756A00017F402 /* Jadeja.jpg */,
+				96125D272037568C0017F402 /* Dhawan.jpg */,
+			);
+			path = UserImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +215,7 @@
 				TargetAttributes = {
 					96125CE42036F98A0017F402 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +243,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96125D2E203756CB0017F402 /* Gambhir.jpg in Resources */,
+				96125D31203756EF0017F402 /* Dravid.jpeg in Resources */,
+				96125D37203757300017F402 /* Pandya.jpeg in Resources */,
+				96125D3B203757500017F402 /* Sachin.jpeg in Resources */,
+				96125D282037568C0017F402 /* Dhawan.jpg in Resources */,
+				96125D2A203756A10017F402 /* Jadeja.jpg in Resources */,
 				96125CF32036F98A0017F402 /* LaunchScreen.storyboard in Resources */,
+				96125D39203757410017F402 /* Bumrah.jpeg in Resources */,
 				96125CF02036F98A0017F402 /* Assets.xcassets in Resources */,
+				96125D352037571E0017F402 /* Yuvraj.jpeg in Resources */,
+				96125D2C203756B30017F402 /* Dhoni.jpeg in Resources */,
+				96125D33203757010017F402 /* Rohit.jpeg in Resources */,
 				96125CEE2036F98A0017F402 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96125CEB2036F98A0017F402 /* ViewController.swift in Sources */,
+				96125D3F203762FA0017F402 /* KILabel.m in Sources */,
+				96125CFB2036FDF50017F402 /* AppTabBarController.swift in Sources */,
+				96125CFD2036FE130017F402 /* AppNavigationController.swift in Sources */,
+				96125D1C20373ED10017F402 /* SuggestionCell.swift in Sources */,
+				96125D24203746A90017F402 /* SuggestionModel.swift in Sources */,
+				96125D1A20373B460017F402 /* FeedHeaderView.swift in Sources */,
+				96125D222037414E0017F402 /* FeedCell.swift in Sources */,
 				96125CE92036F98A0017F402 /* AppDelegate.swift in Sources */,
+				96125D20203740FC0017F402 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +411,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstagramHomefeedSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vamshi.InstagramHomefeedSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstagramHomefeedSwift/InstagramHomefeedSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +432,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InstagramHomefeedSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vamshi.InstagramHomefeedSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "InstagramHomefeedSwift/InstagramHomefeedSwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
