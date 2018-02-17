@@ -8,4 +8,4 @@ It mainly covers topics like:
 4) Proper MVC pattern.
 5) Design UITabBar similar to that of Instagram.
 
-![simulator screen shot - iphone 8 plus - 2018-02-17 at 11 56 06](https://user-images.githubusercontent.com/21070922/36338596-95c7a116-13d9-11e8-84fe-99f938034834.png)
+![ezgif com-optimize](https://user-images.githubusercontent.com/21070922/36338755-5e55d564-13dd-11e8-9f40-9dbbb496371f.gif)
